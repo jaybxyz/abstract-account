@@ -35,7 +35,7 @@ $BINARY genesis add-genesis-account $($BINARY keys show user2 --keyring-backend 
 curl https://gist.githubusercontent.com/jaybxyz/7ede48515df4fcff8497a41175e952a9/raw/e59db08c713cc69d08f7300fa6de4ad8d74a5194/simapp-abstract-account-priv_validator_key.json -o $HOME/.simapp/config/priv_validator_key.json
 
 # Get pre-prepared genesis.json file
-curl https://gist.githubusercontent.com/jaybxyz/df316413a5292d4580af550177fa92b2/raw/d3c190f576ee044ed4aa68504896b6b1b039e97c/simapp-abstract-account-genesis.json -o $HOME/.simapp/config/genesis.json
+curl https://gist.githubusercontent.com/jaybxyz/df316413a5292d4580af550177fa92b2/raw/388845e769832dec2fc4420b8b794410ff23e55b/simapp-abstract-account-genesis.json -o $HOME/.simapp/config/genesis.json
 
 # Start
 $BINARY start --grpc.address="0.0.0.0:9090"
