@@ -7,7 +7,7 @@ CHAIN_DIR=$HOME/.simapp
 MNEMONIC_1="guard cream sadness conduct invite crumble clock pudding hole grit liar hotel maid produce squeeze return argue turtle know drive eight casino maze host"
 MNEMONIC_2="friend excite rough reopen cover wheel spoon convince island path clean monkey play snow number walnut pull lock shoot hurry dream divide concert discover"
 MNEMONIC_3="fuel obscure melt april direct second usual hair leave hobby beef bacon solid drum used law mercy worry fat super must ritual bring faculty"
-GENESIS_COINS=10000000000000stake,10000000000000uatom
+GENESIS_COINS=10000000000000stake,10000000000000utoken
 
 # Stop process if it is already running 
 if pgrep -x "$BINARY" >/dev/null; then
