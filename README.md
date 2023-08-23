@@ -168,6 +168,10 @@ Parameters are updatable by the module's authority, typically set to the gov mod
 
 See the [simapp](./simapp/) for an example.
 
+## How to start a local network
+
+See the [LOCALNET.md](./LOCALNET.md).
+
 ## Demo
 
 This repository contains three SCAs for demo purpose. Note, they are not considered ready for production use:
@@ -179,6 +183,10 @@ This repository contains three SCAs for demo purpose. Note, they are not conside
 | [`account-eth`](./cosmwasm//contracts//eth/)           | account controlled by Ethereum signatures                    | [YouTube][10] |
 | [`account-granter`](./cosmwasm/contracts/granter/)     | account with authz grant capability                          | [YouTube][11] |
 | [`account-updatable`](./cosmwasm/contracts/updatable/) | account with rotatable pubkey                                | [YouTube][12] |
+
+## Signing an abstract account program
+
+If you ever wonder where to find the signing code in the [Account Abstraction for Cosmos - Demo #1 - Key Rotation](https://youtu.be/AdaLn28qG70) demo presented by [larry0x](https://github.com/larry0x), here is [the code](https://gist.github.com/jaybxyz/26e8ae886a793e1552ee39ca7da15ac5). Feel free to make use of it for your exploration on Abstract Account
 
 ## License
 
